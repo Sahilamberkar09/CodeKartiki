@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Winners of CodeKartiki 2025 Web Development Competition" />
   <link rel="icon" type="image/x-icon" href="./images/logo.png" />
   <title>CodeKartiki 2025 — Winners</title>
   <style>
@@ -11,7 +12,7 @@
       --bg: #0f0f13;
       --card: #15151a;
       --accent: #6c5ce7;
-      --muted: #bfc7d6
+      --muted: #bfc7d6;
     }
 
     * {
@@ -29,7 +30,6 @@
       max-width: 1000px;
       margin: 40px auto;
       padding: 50px 20px;
-
     }
 
     header {
@@ -97,14 +97,35 @@
       color: white;
       padding: 10px 16px;
       border-radius: 8px;
-      font-weight: 600
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #7c6eff;
     }
 
     footer {
       text-align: center;
-      margin-top: 40px;
+      margin-top: 50px;
       color: var(--muted);
-      font-size: 13px
+      font-size: 13px;
+    }
+
+    footer .credit {
+      margin-top: 10px;
+      font-size: 13px;
+      color: #888;
+    }
+
+    footer .credit a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    footer .credit span {
+      color: var(--accent);
+      font-weight: 600;
     }
 
     @media(max-width:520px) {
@@ -125,7 +146,7 @@
 
     <section class="grid">
       <div class="card">
-        <img src="./images/Yash.png" alt="Shree Vitthal Mandir" />
+        <img src="./images/Yash.png" alt="Amberkarwadi Temple" />
         <h3>Yash Shirgaonkar</h3>
         <div class="meta">🏆 1st Prize</div>
         <a href="https://ys-kartiki-web.vercel.app/" class="btn" target="_blank" rel="noopener">View Website</a>
@@ -140,7 +161,7 @@
       </div>
 
       <div class="card">
-        <img src="./images/Amaan.png" alt="Vitthal Rakhumai Gallery" />
+        <img src="./images/Amaan.png" alt="Amberkarwadi Temple" />
         <h3>Amaan Kondkar</h3>
         <div class="meta">🥉 3rd Prize</div>
         <a href="https://amaankondkar.github.io/temple/index.html" class="btn" target="_blank" rel="noopener">View
@@ -151,6 +172,8 @@
     <footer>
       <p>Organized by Shri Vitthal Rakhumai Seva Mandal, Amberkarwadi • Kartiki Ekadashi Utsav 2025</p>
       <p>Contact: 9359770332 / 8956503673 / 7208313146</p>
+      <div class="credit">Developed by <a href="https://sahilamberkar-portfolio.vercel.app/"><span>Sahil
+            Amberkar</span></a></div>
     </footer>
   </div>
 </body>
