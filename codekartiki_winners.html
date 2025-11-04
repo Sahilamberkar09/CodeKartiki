@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CodeKartiki 2025 — Winners</title>
+  <style>
+    :root {
+      --bg: #0f0f13;
+      --card: #15151a;
+      --accent: #6c5ce7;
+      --muted: #bfc7d6
+    }
+
+    * {
+      box-sizing: border-box
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: linear-gradient(180deg, #0b0b0f 0%, #141219 60%);
+      color: #eef2ff
+    }
+
+    .wrap {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 50px 20px;
+
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 8px
+    }
+
+    p {
+      color: var(--muted);
+      font-size: 15px;
+      margin-top: 0
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+      margin-top: 30px
+    }
+
+    .card {
+      background: var(--card);
+      padding: 20px;
+      border-radius: 14px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      transition: transform 0.3s, box-shadow 0.3s
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6)
+    }
+
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 14px
+    }
+
+    .card h3 {
+      margin: 0 0 6px;
+      font-size: 20px;
+      color: #fff
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 14px
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      background: var(--accent);
+      color: white;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-weight: 600
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: var(--muted);
+      font-size: 13px
+    }
+
+    @media(max-width:520px) {
+      h1 {
+        font-size: 26px
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <h1>CodeKartiki 2025 — Winners</h1>
+      <p>Congratulations to all the talented developers who participated in the Online Web Development Competition under
+        Kartiki Ekadashi Utsav 2025! 🎉</p>
+    </header>
+
+    <section class="grid">
+      <div class="card">
+        <img src="./images/Yash.png" alt="Shree Vitthal Mandir" />
+        <h3>Yash Shirgaonkar</h3>
+        <div class="meta">🏆 1st Prize</div>
+        <a href="https://ys-kartiki-web.vercel.app/" class="btn" target="_blank" rel="noopener">View Website</a>
+      </div>
+
+      <div class="card">
+        <img src="./images/Rohan.png" alt="Amberkarwadi Temple" />
+        <h3>Rohan Pashte</h3>
+        <div class="meta">🥈 2nd Prize</div>
+        <a href="http://shri-vitthal-rakhumai-temple.netlify.app" class="btn" target="_blank" rel="noopener">View
+          Website</a>
+      </div>
+
+      <div class="card">
+        <img src="./images/Amaan.png" alt="Vitthal Rakhumai Gallery" />
+        <h3>Amaan Kondkar</h3>
+        <div class="meta">🥉 3rd Prize</div>
+        <a href="https://amaankondkar.github.io/temple/index.html" class="btn" target="_blank" rel="noopener">View
+          Website</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>Organized by Shri Vitthal Rakhumai Seva Mandal, Amberkarwadi • Kartiki Ekadashi Utsav 2025</p>
+      <p>Contact: 9359770332 / 8956503673 / 7208313146</p>
+    </footer>
+  </div>
+</body>
+
+</html>
